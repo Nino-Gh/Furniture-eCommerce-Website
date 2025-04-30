@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+}
+
+.top{
+  display: flex;
+  padding: 33.5px 0px 34.5px 54px;
+  align-items: center;
+}
+
+.brand{
+  display: flex;
+}
+
+#brand-name{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  margin-left: 5px;
+  margin-right: 69px;
+}
+
+.header-nav ul{
+  display: flex;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.header-nav li{
+  margin-right: 75px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.title{
+  text-align: center;
+  margin-top: 98px;
+  margin-bottom: 128px;
+}
+
+.title h2{
+  font-weight: 600;
+  font-size: 36px;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 10px;
+}
+
+.title p{
+  font-size: 16px;
+  color: rgba(159, 159, 159, 1);
+}
+
+.contacts{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0px 74px 137px 82px;
+}
+
+.address{
+  margin-bottom: 43px;
+  padding-top: 94px;
+}
+
+.address h3{
+  font-weight: 500;
+  font-size: 24px;
+  display: inline;
+  margin-right: 30px;
+}
+
+.address span{
+  font-size: 16px;
+}
+
+.phone h3{
+  font-weight: 500;
+  font-size: 24px;
+  display: inline;
+  margin-right: 30px;
+}
+
+.phone span{
+  font-size: 16px;
+}
+
+.about-us{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0px 535px 60px 88px;
+}
+
+.about-us h2{
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.about-us p{
+  font-size: 15px;
+  color: rgba(159, 159, 159, 1);
+  margin-bottom: 30px;
+}
+
+.about-us h5{
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 12px;
+}
+
+.about-us hr{
+  height: 1px;
+  width: 77px;
+  background-color: rgba(0, 0, 0, 1);
+  border: none;
+}
+
+.services{
+  width: 100%;
+  padding: 100px 53px;
+  background-color: rgba(250, 243, 234, 1);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.services h3{
+  font-weight: 600;
+  font-size: 25px;
+  color: rgba(36, 36, 36, 1);
+  margin-bottom: 12px;
+}
+
+.services span{
+  font-weight: 500;
+  font-size: 20px;
+  color: rgba(137, 137, 137, 1);
+}
+
+footer{
+  padding: 48px 0 145px 100px;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 2fr;
+}
+
+.footer-address h2{
+  font-weight: 700;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 50px;
+}
+
+.footer-address span{
+  font-size: 16px;
+  color: rgba(159, 159, 159, 1);
+}
+
+.links h6{
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(159, 159, 159, 1);
+  margin-bottom: 55px;
+}
+
+.help h6{
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(159, 159, 159, 1);
+  margin-bottom: 55px;
+}
+
+.footer-nav li{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1);
+}
