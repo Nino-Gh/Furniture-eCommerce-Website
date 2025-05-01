@@ -119,15 +119,18 @@ header{
 .about-us h5{
   font-size: 16px;
   color: rgba(0, 0, 0, 1);
-  margin-bottom: 12px;
+  text-decoration: underline; /*ბოლოს გადავწყვიტე ეს გამეკეთებინა, მაგრამ ახლა ზედმეტად შეტყუპებულებია*/
+  line-height: 12px;
 }
 
-.about-us hr{
+/*.about-us hr{
   height: 1px;
   width: 77px;
   background-color: rgba(0, 0, 0, 1);
   border: none;
-}
+  display: flex;
+  justify-content: flex-start;
+} აქ ვცადე გასტილვა ამ ხაზის და მაინც არ ჯდებოდა ზედა ელემენტის ქვემოთ*/
 
 .services{
   width: 100%;
